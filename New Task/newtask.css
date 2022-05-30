@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-color: #30a5ca;
+  background: linear-gradient(
+      0deg,
+      rgba(48, 165, 202, 0.58),
+      rgba(48, 165, 202, 0.58)
+    ),
+    url(./Images/backgroundimageblack.png);
+  background-blend-mode: overlay, normal;
+  background-repeat: no-repeat;
+}
+
+/* menu style */
+
+header {
+  padding: 0 5rem;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 30px;
+}
+
+/* left menu */
+
+header nav .left-side-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4vh;
+}
+
+header nav .left-side-menu .logo {
+  min-width: 10vw;
+}
+
+/* middle menu */
+
+header nav .middle-menu {
+  display: flex;
+  text-align: center;
+  min-width: 30vw;
+}
+
+header nav .middle-menu a {
+  margin-right: 4rem;
+  text-decoration: none;
+  color: white;
+}
+
+header nav .middle-menu a li {
+  list-style-type: none;
+}
+
+/* right menu */
+
+header .right-side-menu {
+  border: 1px solid rgba(255, 255, 255, 0.17);
+  border-radius: 60px;
+  height: 7vh;
+  box-sizing: border-box;
+  padding: 1.9vh 1.3vw;
+}
+
+header .right-side-menu .right-menu a {
+  word-spacing: 1vw;
+  text-decoration: none;
+}
+
+#logo1 {
+  height: 2vh;
+}
+
+#logo2 {
+  height: 2vh;
+}
+
+/* header second */
+
+.header2 {
+  color: white;
+  border: solid white;
+  margin-top: 5vh;
+  padding: 30px 70px;
+}
+
+#header2 {
+  border: solid white;
+  max-width: 50vw;
+  padding: 30px 90px;
+}
+
+.heading {
+  border: solid white;
+  max-width: 50vw;
+  font-size: 80px;
+  font-weight: 500;
+}
+
+.paragraph2 {
+  border: solid white;
+  max-width: 40vw;
+  padding: 5px;
+  margin-top: 1vh;
+  font-size: 20px;
+}
+
+.input {
+  display: inline-flex;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  margin-top: 2vh;
+  border-radius: 50px;
+  max-width: 35vw;
+  max-height: 10vh;
+}
+
+#email {
+  color: white;
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0.03);
+  margin-left: 1vw;
+  height: 3vh;
+  margin-top: 3.3vh;
+}
+
+#line {
+  margin-left: 4vw;
+  margin-top: 1vh;
+  height: 8vh;
+}
+
+#owner {
+  margin-left: 3vw;
+  margin-top: 3vh;
+}
+
+#droparrow {
+  margin-left: 0.5vw;
+  margin-top: 4.3vh;
+  height: 1vh;
+}
+
+#circle {
+  margin-left: 3vw;
+}
+
+#arrow {
+  margin-top: 3.3vh;
+  margin-left: -2.6vw;
+  height: 3vh;
+}
