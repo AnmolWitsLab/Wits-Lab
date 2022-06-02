@@ -11,10 +11,12 @@
   margin-left: 119px;
   padding-top: 4px;
 }
+
 .center {
-  margin: 19px 318px;
+  margin-top: 2.5vh;
+  margin-left: 20vw;
   font-weight: 550;
-  font-size: 15px;
+  font-size: 1em;
   opacity: 1;
   color: rgb(123, 122, 122);
   cursor: pointer;
@@ -23,7 +25,7 @@
 .insights {
   display: none;
   position: absolute;
-  top: 40px;
+  top: 7vh;
   background-color: white;
   z-index: 1;
   width: 150px;
@@ -51,9 +53,10 @@
 }
 
 .center2 {
-  margin: 19px -241.5px;
+  margin-top: 2.5vh;
+  margin-left: 5vw;
   font-weight: 550;
-  font-size: 15px;
+  font-size: 1em;
   opacity: 1;
   color: rgb(123, 122, 122);
   cursor: pointer;
@@ -62,7 +65,7 @@
 .services {
   display: none;
   position: absolute;
-  top: 40px;
+  top: 7vh;
   background-color: white;
   z-index: 1;
   width: 150px;
@@ -92,9 +95,10 @@
 }
 
 .center3 {
-  margin: 19px 318px;
+  margin-top: 2.5vh;
+  margin-left: 5vw;
   font-weight: 550;
-  font-size: 15px;
+  font-size: 1em;
   opacity: 1;
   color: rgb(123, 122, 122);
   cursor: pointer;
@@ -133,9 +137,10 @@
 }
 
 .center4 {
-  margin: 19px -250px;
+  margin-top: 2.5vh;
+  margin-left: 5vw;
   font-weight: 550;
-  font-size: 15px;
+  font-size: 1em;
   opacity: 1;
   color: rgb(123, 122, 122);
   cursor: pointer;
@@ -164,9 +169,10 @@
 }
 
 .center5 {
-  margin: 19px 295px;
+  margin-top: 2.5vh;
+  margin-left: 5vw;
   font-weight: 550;
-  font-size: 15px;
+  font-size: 1em;
   opacity: 1;
   color: rgb(123, 122, 122);
   cursor: pointer;
@@ -195,8 +201,20 @@
 }
 
 .center6 {
-  margin: 28px -250px;
+  margin-top: 4vh;
+  margin-left: 4vw;
   color: rgb(123, 122, 122);
+}
+
+.reorder {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 5px 10px 29px 10px;
+  opacity: 1;
+  margin-top: 28px;
+  margin-left: 565px;
+  height: 5px;
+  cursor: pointer;
 }
 
 .rightbutton {
@@ -310,15 +328,11 @@
   background-color: #1f2d64;
 }
 
-.mainh2 {
-  margin-top: -20px;
-  margin-left: 500px;
-  font-size: 40px;
+.mainh2p2 {
+  text-align: center;
 }
-
-.mainp2 {
-  margin-left: 300px;
-  margin-top: -20px;
+.mainh2 {
+  font-size: 2.5em;
 }
 
 .grid {
@@ -503,11 +517,11 @@
   font-size: 16px;
   font-weight: 500;
 }
-
+.middleh1upper {
+  text-align: center;
+}
 .middleh1 {
-  margin-top: 100px;
-  margin-left: 400px;
-  font-size: 40px;
+  font-size: 2em;
   font-weight: 550;
 }
 
@@ -522,7 +536,7 @@
   border-radius: 10px;
   text-align: left;
   padding: 20px;
-  width: 170px;
+  width: 180px;
   border: none;
   background: linear-gradient(180deg, #2f3a77, #272b44);
   transition-delay: 0.2s;
@@ -549,7 +563,7 @@
   border-radius: 10px;
   text-align: left;
   padding: 20px;
-  width: 170px;
+  width: 180px;
   border: none;
   background: linear-gradient(180deg, #3ba4e2, #1d75dc);
   transition-delay: 0.2s;
@@ -605,8 +619,8 @@
 }
 
 .footercolumnleft {
-  margin-left: 200px;
-  width: 650px;
+  margin-left: 10vw;
+  width: 30vw;
   animation-name: footercolumnleft;
   animation-duration: 2s;
 }
@@ -618,7 +632,7 @@
   }
   to {
     opacity: 1;
-    margin-left: 200px;
+    margin-left: 10vw;
   }
 }
 
@@ -1034,7 +1048,7 @@
 .lastinput {
   box-sizing: border-box;
   height: 61px;
-  width: 314.5px;
+  width: 20vw;
   border: 1px solid #979797;
   opacity: 0.34;
   border-radius: 5px 0 0 5px;
@@ -1045,7 +1059,7 @@
 
 .submit {
   height: 61.7px;
-  width: 62px;
+  width: 4vw;
   border-radius: 0 5px 5px 0;
   background-color: #f4cf4e;
   padding: 5%;
@@ -1069,7 +1083,9 @@
 .finaldiv {
   margin-left: 235px;
 }
-
+#usnumber {
+  margin-top: 10px;
+}
 #indnumber {
   margin-top: -10px;
 }
@@ -1122,4 +1138,482 @@
 
 #terms:hover {
   opacity: 1;
+}
+
+@media only screen and (max-width: 1432px) {
+  .center {
+    margin-left: 5vw;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+  }
+  .finaldiv {
+    margin-left: 10vw;
+  }
+  .submit {
+    width: 4vw;
+  }
+
+  .class2 {
+    margin-left: 40px;
+  }
+  .class3 {
+    margin-left: 40px;
+  }
+  .class4 {
+    margin-left: 40px;
+  }
+  .class5 {
+    margin-left: 40px;
+  }
+  .lastinput {
+    width: 15vw;
+  }
+}
+
+@media only screen and (max-width: 1140px) {
+  .dropdown {
+    display: block;
+  }
+
+  .center {
+    margin-top: 2vh;
+    margin-left: 10.5vw;
+  }
+
+  .center2 {
+    margin-top: -3vh;
+    margin-left: 10.5vw;
+  }
+
+  .center3 {
+    margin-top: -3vh;
+    margin-left: 10.5vw;
+  }
+
+  .center4 {
+    margin-top: -3vh;
+    margin-left: 10.5vw;
+  }
+
+  .center5 {
+    margin-top: -3vh;
+    margin-left: 10.5vw;
+  }
+
+  .center6 {
+    margin-top: 3vh;
+    margin-left: 10.5vw;
+  }
+
+  .mainh1 {
+    top: 350px;
+  }
+
+  .mainp {
+    top: 500px;
+  }
+
+  .mainbutton {
+    top: 600px;
+  }
+
+  .grid {
+    grid-template-columns: 250px 250px 250px;
+    margin-left: 80px;
+  }
+
+  .middleh1upper {
+    margin-top: 80px;
+  }
+
+  .middleh1 {
+    margin-left: -2vw;
+  }
+
+  .footer {
+    display: block;
+  }
+
+  .footercolumnleft {
+    margin-left: 10vw;
+  }
+
+  @keyframes footercolumnleft {
+    from {
+      opacity: 0;
+      margin-left: 0px;
+    }
+    to {
+      opacity: 1;
+      margin-left: 10vw;
+    }
+  }
+
+  .footer2 {
+    margin-top: 60px;
+  }
+
+  .footerrightp {
+    margin-left: -10vw;
+  }
+
+  .footerrighth6 {
+    margin-left: -10vw;
+  }
+
+  .footerrightp2 {
+    margin-left: -10vw;
+  }
+
+  .footerright2h6 {
+    margin-left: -10vw;
+  }
+
+  .footerrightp3 {
+    margin-left: -10vw;
+  }
+
+  .footerright3h6 {
+    margin-left: -10vw;
+  }
+
+  .last {
+    display: block;
+    text-align: center;
+    margin-left: 3.5vw;
+  }
+
+  #insights1 {
+    margin-left: 3.5vw;
+  }
+
+  .ArtificialIntelligence {
+    margin-left: 3vw;
+  }
+
+  .AR {
+    margin-left: 3vw;
+  }
+
+  .BlockchainDevelopment {
+    margin-left: 3vw;
+  }
+
+  .MachineLearning {
+    margin-left: 3vw;
+  }
+
+  .lastinput {
+    height: 50px;
+    width: 250px;
+    padding: 1%;
+    font-size: 13px;
+  }
+
+  .submit {
+    height: 50px;
+    width: 50px;
+    padding: 1%;
+    font-size: 14px;
+  }
+  .finaldiv {
+    margin-left: 100px;
+  }
+  .number {
+    margin-left: 20px;
+  }
+  #arr {
+    margin-left: 400px;
+  }
+
+  #terms {
+    margin-left: 380px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .navimg {
+    margin-left: 50px;
+  }
+  .dropdown {
+    display: block;
+  }
+
+  .mainh1 {
+    font-size: 28px;
+    margin-left: 50px;
+    margin-top: 150px;
+  }
+
+  @keyframes heading {
+    from {
+      opacity: 0;
+      margin-left: 0px;
+    }
+    to {
+      opacity: 1;
+      margin-left: 50px;
+    }
+  }
+
+  .mainp {
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: 160px;
+  }
+
+  @keyframes pera {
+    from {
+      opacity: 0;
+      margin-left: 0px;
+    }
+    to {
+      opacity: 1;
+      margin-left: 50px;
+    }
+  }
+
+  .mainbutton {
+    margin-top: 230px;
+    margin-left: 50px;
+  }
+
+  @keyframes btn {
+    from {
+      opacity: 0;
+      margin-left: 0px;
+    }
+    to {
+      opacity: 1;
+      margin-left: 50px;
+    }
+  }
+
+  .grid {
+    grid-template-columns: auto;
+  }
+
+  .column {
+    border-right: 0px solid rgb(234, 234, 234);
+    border-bottom: 0px solid lightgray;
+  }
+  .column2 {
+    border-right: 0px solid rgb(234, 234, 234);
+    border-bottom: 0px solid lightgray;
+  }
+  .column3 {
+    border-bottom: 0px solid lightgray;
+  }
+  .column4 {
+    border-right: 0px solid rgb(234, 234, 234);
+  }
+  .column5 {
+    border-right: 0px solid rgb(234, 234, 234);
+  }
+  .middle {
+    display: block;
+    margin-left: 10px;
+    height: 1000px;
+  }
+  .middlecolumn1 {
+    width: 400px;
+    height: 300px;
+  }
+
+  .middlecolumn1:hover {
+    width: 400px;
+  }
+  .middlecolumn2 {
+    width: 400px;
+    height: 300px;
+  }
+
+  .middlecolumn2:hover {
+    width: 400px;
+  }
+
+  .middlecolumn3 {
+    width: 400px;
+    height: 300px;
+  }
+
+  .middlecolumn3:hover {
+    width: 400px;
+  }
+  .footercolumnleft {
+    margin-left: 10vw;
+    width: 60vw;
+  }
+  .footerlefth6 {
+    width: 370px;
+  }
+  .footerlefth1 {
+    width: 370px;
+  }
+  .footer2 {
+    width: 200px;
+
+    margin-left: 100px;
+  }
+  .footercolumnright {
+    width: 300px;
+  }
+  .footerrighth6 {
+    width: 400px;
+  }
+
+  .footercolumnright2 {
+    width: 300px;
+  }
+  .footerright2h6 {
+    width: 400px;
+  }
+
+  .footercolumnright3 {
+    width: 300px;
+  }
+  .footerright3h6 {
+    width: 400px;
+  }
+
+  .last {
+    margin-left: -1vw;
+  }
+
+  .class2 {
+    margin-left: 4vw;
+  }
+
+  .class3 {
+    margin-left: 4vw;
+  }
+
+  .class4 {
+    margin-left: 4vw;
+  }
+
+  .class5 {
+    margin-left: 4vw;
+  }
+
+  .finaldiv {
+    margin-left: 20px;
+  }
+
+  .number {
+    margin-left: 30px;
+  }
+
+  #number1 {
+    font-size: 10px;
+    font-weight: 0;
+  }
+
+  #number2 {
+    font-size: 10px;
+    font-weight: 0;
+  }
+
+  #arr {
+    font-size: 10px;
+    margin-left: 93px;
+  }
+
+  #terms {
+    font-size: 10px;
+    margin-left: 80px;
+  }
+
+  #usnumber {
+    margin-top: 15px;
+    font-size: 12px;
+  }
+  #indnumber {
+    font-size: 12px;
+  }
+  .mainimg {
+    display: none;
+  }
+  .mainh1 {
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+    top: 0px;
+    margin-top: 8px;
+    margin-left: 23px;
+    max-width: 670px;
+    line-height: 1.2em;
+    animation-name: heading;
+    animation-duration: 1.5s;
+  }
+
+  .mainp {
+    position: relative;
+    top: 0px;
+    margin-top: 15px;
+    margin-left: 23px;
+    max-width: 450px;
+    line-height: 1.8em;
+    font-weight: 500;
+    animation-name: pera;
+    animation-duration: 1.5s;
+  }
+  .mainbutton {
+    height: 55px;
+
+    position: relative;
+    top: 0px;
+    margin-top: 80px;
+    border: none;
+    border-radius: 25.5px;
+    background-color: #2d4195;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 23px;
+    line-height: 50px;
+    letter-spacing: 0.7px;
+    outline: none;
+    animation-name: btn;
+    animation-duration: 1.5s;
+  }
+  @keyframes heading {
+    from {
+      opacity: 0;
+      margin-left: 0px;
+    }
+    to {
+      opacity: 1;
+      margin-left: 23px;
+    }
+  }
+  @keyframes pera {
+    from {
+      opacity: 0;
+      margin-left: 0px;
+    }
+    to {
+      opacity: 1;
+      margin-left: 23px;
+    }
+  }
+  @keyframes btn {
+    from {
+      opacity: 0;
+      margin-left: 0px;
+    }
+    to {
+      opacity: 1;
+      margin-left: 23px;
+    }
+  }
+
+  .mainh2p2 {
+    margin-top: 150px;
+  }
 }
