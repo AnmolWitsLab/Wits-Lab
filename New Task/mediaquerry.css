@@ -1,0 +1,158 @@
+@media only screen and (max-width: 1460px) {
+  /* header second */
+
+  #header2 {
+    padding: 60px 0px;
+    margin-left: 1vw;
+  }
+
+  /* right side header second */
+
+  .kong {
+    max-width: 55vw;
+    margin-left: -10%;
+  }
+
+  #kongimg {
+    top: 80px;
+  }
+
+  /* road map section 7 */
+
+  .submit p {
+    padding: 10vh 1vw;
+  }
+
+  /* footer bottom */
+
+  .discord {
+    padding: 5vh 0.5vw 5vh 0.5vw;
+  }
+}
+
+@media only screen and (max-width: 1355px) {
+  /* header second */
+
+  #header2 {
+    min-width: 45vw;
+    padding: 60px 50px;
+    margin-top: 35px;
+    margin-left: 18vw;
+  }
+  /* right side header second */
+
+  .kongimg {
+    max-width: 65vw;
+    position: relative;
+    left: 20px;
+    margin-left: 70px;
+    margin-top: -10vh;
+  }
+
+  /* road map section 2 */
+
+  .column3rm2 {
+    text-align: end;
+    margin-left: 1vw;
+  }
+
+  /* road map section 3 */
+
+  .column3rm3 {
+    text-align: end;
+    margin-right: 3vw;
+  }
+
+  /* road map section 4 */
+
+  .column3rm4 {
+    text-align: end;
+    margin-left: 1vw;
+  }
+
+  /* road map section 5 */
+
+  .column3rm5 {
+    text-align: end;
+    margin-right: 3vw;
+  }
+
+  /* road map section 6 */
+
+  .column3rm6 {
+    text-align: end;
+    margin-left: 1vw;
+  }
+  /* road map section 7 */
+
+  #input1 {
+    margin-left: 14.5vw;
+  }
+
+  .submit p {
+    padding: 10vh 1.5vw;
+  }
+
+  /* footer bottom */
+
+  .discord {
+    padding: 5vh 0.8vw 5vh 0.8vw;
+  }
+}
+
+@media only screen and (max-width: 1184px) {
+  /* header second */
+
+  #header2 {
+    padding: 80px 0px;
+    margin-left: 25vw;
+  }
+
+  /* right side header second */
+
+  .kongimg {
+    max-width: 65vw;
+    position: relative;
+    left: 20px;
+    margin-left: 70px;
+    margin-top: -10vh;
+  }
+
+  /* middle section */
+
+  .roadmap {
+    margin-top: 20%;
+  }
+
+  /* road map section 3 */
+
+  .roadmap3 {
+    display: grid;
+    grid-template-columns: 8% 20% 25% 33%;
+  }
+
+  /* road map section 5 */
+
+  .roadmap5 {
+    display: grid;
+    grid-template-columns: 8% 20% 25% 33%;
+  }
+
+  /* road map section 7 */
+
+  #input1 {
+    margin-left: 14.5vw;
+  }
+
+  /* road map section 7 */
+
+  .submit p {
+    padding: 10vh 2vw;
+  }
+
+  /* footer bottom */
+
+  .discord {
+    padding: 5vh 1vw 5vh 1vw;
+  }
+}

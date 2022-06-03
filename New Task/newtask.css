@@ -6,9 +6,9 @@
   scroll-behavior: smooth;
 }
 
-*::-webkit-scrollbar {
+/* *::-webkit-scrollbar {
   display: none;
-}
+} */
 
 body {
   background-image: linear-gradient(
@@ -101,9 +101,9 @@ header .right-side-menu .right-menu a {
 /* header second */
 
 .header2 {
-  display: flex;
+  display: block;
   color: white;
-  margin-top: 11vh;
+  margin-top: 7vh;
 }
 
 #header2 {
@@ -179,12 +179,8 @@ header .right-side-menu .right-menu a {
 
 /* right side header second */
 
-.kong {
-  max-width: 50vw;
+.kongimg {
   margin-left: -2%;
-}
-
-#kongimg {
   position: absolute;
   width: 1056px;
   height: 722px;
@@ -197,8 +193,8 @@ header .right-side-menu .right-menu a {
   position: absolute;
   width: 243px;
   height: 86px;
-  left: 700px;
-  top: 350px;
+  left: 150px;
+  top: 230px;
   background: rgba(255, 255, 255, 0.06);
   backdrop-filter: blur(80px);
   border-radius: 90px;
@@ -224,8 +220,8 @@ header .right-side-menu .right-menu a {
   position: absolute;
   width: 245px;
   height: 87px;
-  left: 1190px;
-  top: 250px;
+  left: 640px;
+  top: 130px;
   background: rgba(255, 255, 255, 0.06);
   backdrop-filter: blur(80px);
   border-radius: 90px;
@@ -251,8 +247,8 @@ header .right-side-menu .right-menu a {
   position: absolute;
   width: 256px;
   height: 87.17px;
-  left: 720px;
-  top: 560px;
+  left: 160px;
+  top: 435px;
   background: rgba(255, 255, 255, 0.06);
   backdrop-filter: blur(80px);
   border-radius: 90px;
@@ -278,8 +274,8 @@ header .right-side-menu .right-menu a {
   position: absolute;
   width: 193px;
   height: 87px;
-  left: 1208px;
-  top: 530px;
+  left: 655px;
+  top: 410px;
   background: rgba(255, 255, 255, 0.06);
   backdrop-filter: blur(80px);
   border-radius: 90px;
@@ -304,8 +300,8 @@ header .right-side-menu .right-menu a {
   position: absolute;
   width: 147.89px;
   height: 147.89px;
-  left: 1000px;
-  top: 515px;
+  left: 440px;
+  top: 395px;
   background: url(images/coin1.png);
 }
 
@@ -313,8 +309,8 @@ header .right-side-menu .right-menu a {
   position: absolute;
   width: 130px;
   height: 147.89px;
-  left: 1008px;
-  top: 650.52px;
+  left: 450px;
+  top: 530px;
   background: url(images/coin2.png);
   z-index: 1;
 }
@@ -323,8 +319,8 @@ header .right-side-menu .right-menu a {
   position: absolute;
   width: 80px;
   height: 103px;
-  left: 1105px;
-  top: 683px;
+  left: 550px;
+  top: 562px;
   background: url(images/coin3.png);
 }
 
@@ -334,7 +330,7 @@ header .right-side-menu .right-menu a {
   display: grid;
   grid-template-columns: 15% 10% 25% 45% 5%;
   color: white;
-  margin-top: 3%;
+  margin-top: 10%;
 }
 
 .column2 {
