@@ -71,7 +71,7 @@ header nav .middle-menu a li {
   list-style-type: none;
 }
 
-/* right menu */
+/* right side menu */
 
 header .right-side-menu {
   border: 1px solid rgba(255, 255, 255, 0.17);
@@ -182,10 +182,10 @@ header .right-side-menu .right-menu a {
 .kongimg {
   margin-left: -2%;
   position: absolute;
-  width: 1056px;
+  width: 800px;
   height: 722px;
   left: 586px;
-  top: 119px;
+  top: 90px;
   background: url(images/kong.png);
 }
 

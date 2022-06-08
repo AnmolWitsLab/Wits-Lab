@@ -1,3 +1,17 @@
+@media only screen and (max-width: 1532px) {
+  /* road map section 7 */
+
+  .submit p {
+    padding: 10vh 1vw;
+  }
+
+  /* footer bottom */
+
+  .discord {
+    padding: 6vh 1vw 6vh 1vw;
+  }
+}
+
 @media only screen and (max-width: 1460px) {
   /* header second */
 
@@ -8,13 +22,8 @@
 
   /* right side header second */
 
-  .kong {
-    max-width: 55vw;
+  .kongimg {
     margin-left: -10%;
-  }
-
-  #kongimg {
-    top: 80px;
   }
 
   /* road map section 7 */
@@ -44,6 +53,7 @@
   .kongimg {
     max-width: 65vw;
     position: relative;
+
     left: 20px;
     margin-left: 70px;
     margin-top: -10vh;
@@ -90,13 +100,13 @@
   }
 
   .submit p {
-    padding: 10vh 1.5vw;
+    padding: 10vh 1vw;
   }
 
   /* footer bottom */
 
   .discord {
-    padding: 5vh 0.8vw 5vh 0.8vw;
+    padding: 5vh 0.5vw 5vh 0.5vw;
   }
 }
 
@@ -111,7 +121,7 @@
   /* right side header second */
 
   .kongimg {
-    max-width: 65vw;
+    max-width: 85vw;
     position: relative;
     left: 20px;
     margin-left: 70px;
@@ -147,12 +157,519 @@
   /* road map section 7 */
 
   .submit p {
-    padding: 10vh 2vw;
+    padding: 10vh 1vw;
   }
 
   /* footer bottom */
 
   .discord {
-    padding: 5vh 1vw 5vh 1vw;
+    padding: 6vh 1vw 6vh 1vw;
+  }
+}
+
+@media only screen and (max-width: 1048px) {
+  /* header second */
+
+  #header2 {
+    padding: 60px 0px;
+    margin-left: 22vw;
+  }
+
+  /* middle menu */
+
+  header nav .middle-menu {
+    margin-left: 28vw;
+  }
+
+  /* right side header second */
+
+  .kongimg {
+    max-width: 85vw;
+    position: relative;
+    margin-left: -30px;
+  }
+
+  /* middle section */
+
+  .roadmap {
+    display: grid;
+    grid-template-columns: 10% 30% 35% 20% 5%;
+  }
+
+  #column2-p {
+    padding-bottom: 10%;
+    padding-left: 8.5%;
+  }
+
+  #column3-img {
+    margin-top: 35vh;
+    margin-left: -12vw;
+    max-width: 32vw;
+  }
+
+  #column6-img {
+    padding-left: 40%;
+    padding-right: 40%;
+    margin-top: 10vh;
+    margin-left: 11vw;
+  }
+
+  .column7-h1 {
+    margin-top: -8vh;
+    margin-left: -8vw;
+  }
+
+  .column7-h3 {
+    margin-left: -8vw;
+  }
+
+  #column7-p {
+    padding-top: 1vh;
+    margin-left: -8vw;
+    max-width: 30vw;
+  }
+
+  /* road map section 2 */
+
+  .roadmap2 {
+    display: grid;
+    grid-template-columns: 21% 48% 20% 11%;
+    margin-top: 25vh;
+  }
+
+  /* road map section 3 */
+
+  .roadmap3 {
+    display: grid;
+    grid-template-columns: 11% 20% 48% 21%;
+    margin-top: 25vh;
+  }
+
+  /* road map section 4 */
+
+  .roadmap4 {
+    display: grid;
+    grid-template-columns: 21% 48% 20% 11%;
+    margin-top: 25vh;
+  }
+
+  /* road map section 5 */
+
+  .roadmap5 {
+    display: grid;
+    grid-template-columns: 11% 20% 48% 21%;
+    margin-top: 25vh;
+  }
+
+  /* road map section 6 */
+
+  .roadmap6 {
+    display: grid;
+    grid-template-columns: 21% 48% 20% 11%;
+    margin-top: 25vh;
+  }
+
+  /* road map section 7 */
+
+  .column2rm7 {
+    padding-top: 10vh;
+  }
+
+  .column2rm7 :nth-child(3n) {
+    padding-top: 5vh;
+  }
+
+  #input1 {
+    margin-left: 0vw;
+    min-width: 60vw;
+  }
+
+  #input2 {
+    margin-left: 0vw;
+    min-width: 60vw;
+  }
+
+  #input3 {
+    margin-left: 0vw;
+    min-width: 60vw;
+  }
+
+  .submit p {
+    padding: 10vh 1.5vw;
+  }
+
+  /* footer bottom */
+
+  .discord {
+    padding: 6vh 1vw 6vh 1vw;
+  }
+
+  footer {
+    display: grid;
+    border-top: 3px solid rgba(255, 255, 255, 0.21);
+    padding: 5vh;
+    grid-template-columns: auto auto;
+    column-gap: 10vw;
+  }
+}
+
+/* @media only screen and (max-width: 892px) {
+  /* middle menu */
+
+/* header nav .middle-menu {
+  margin-left: 22vw;
+} */
+
+/* header second */
+
+/* #header2 {
+  margin-left: 16vw;
+} */
+
+/* input button */
+
+/* #arrow {
+  padding: 3vh 2vw;
+} */
+
+/* right side menu */
+
+/* header .right-side-menu {
+  margin-left: 80vw;
+} */
+
+/* right side header second */
+
+/* .kongimg {
+  max-width: 90vw;
+  margin-left: -95px;
+} */
+
+/* footer bottom */
+
+/* .discord {
+  padding: 5vh 1vw 5vh 1vw;
+} */
+
+@media only screen and (max-width: 828px) {
+  /* right side header second */
+
+  /* .kongimg {
+    max-width: 90vw;
+    margin-left: -135px;
+  } */
+
+  /* middle section */
+
+  /* #column3-img {
+    margin-top: 25vh;
+  }
+
+  .column7-h1 {
+    margin-left: -6vw;
+  }
+
+  .column7-h3 {
+    margin-left: -6vw;
+  }
+
+  #column7-p {
+    margin-left: -6vw;
+    max-width: 35vw;
+  } */
+
+  /* road map section 3 */
+
+  /* .roadmap3 {
+    display: grid;
+    grid-template-columns: 11% 24% 48% 17%;
+  } */
+
+  /* road map section 5 */
+
+  /* .roadmap5 {
+    display: grid;
+    grid-template-columns: 11% 24% 48% 17%;
+  } */
+
+  /* road map section 7 */
+
+  /* .column2rm7 :nth-child(2n) {
+    padding-left: 1vw;
+  } */
+
+  /* footer */
+
+  /* footer {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20vw;
+  } */
+}
+
+@media only screen and (max-width: 827px) {
+  /* right side header second */
+
+  /* .kongimg {
+    display: none;
+  } */
+}
+
+@media only screen and (max-width: 702px) {
+  /* middle menu */
+
+  /* header nav .middle-menu {
+    margin-left: 19vw;
+  }
+
+  header nav .middle-menu a {
+    margin-right: 3rem;
+  } */
+
+  /* right side menu */
+
+  /* header .right-side-menu {
+    margin-left: 78vw;
+    padding: 1.5%;
+  } */
+
+  /* header second */
+
+  /* #header2 {
+    margin-left: 8vw;
+  } */
+
+  /* input button */
+
+  /* #arrow {
+    padding: 3vh 2.5vw;
+  } */
+
+  /* middle section */
+
+  /* .roadmap {
+    margin-top: 5%;
+  }
+
+  #column3-img {
+    margin-top: 25vh;
+    max-width: 35vw;
+  }
+
+  #column6-img {
+    margin-top: 18vh;
+    margin-left: 5vw;
+  }
+
+  .column7-h1 {
+    margin-top: 5vh;
+    margin-left: -9.5vw;
+  }
+
+  .column7-h3 {
+    margin-left: -9.5vw;
+  }
+
+  #column7-p {
+    margin-left: -9.5vw;
+    max-width: 45vw;
+  } */
+
+  /* road map section 2 */
+
+  /* .roadmap2 {
+    display: grid;
+    grid-template-columns: 6% 60% 24% 10%;
+  } */
+
+  /* road map section 3 */
+
+  /* .roadmap3 {
+    display: grid;
+    grid-template-columns: 10% 24% 60% 6%;
+  }
+
+  #column3rm3-img {
+    margin-left: -3vw;
+    margin-top: 4vh;
+  }
+
+  .column2rm3-h1 {
+    margin-left: 0vw;
+  }
+
+  .column2rm3-h3 {
+    margin-left: 0vw;
+  }
+
+  #column2rm3-p {
+    margin-left: 0vw;
+    max-width: 60vw;
+  } */
+
+  /* road map section 4 */
+
+  /* .roadmap4 {
+    display: grid;
+    grid-template-columns: 6% 60% 24% 10%;
+  } */
+
+  /* road map section 5 */
+
+  /* .roadmap5 {
+    display: grid;
+    grid-template-columns: 10% 24% 60% 6%;
+  }
+
+  #column3rm5-img {
+    margin-left: -3vw;
+    margin-top: 4vh;
+  }
+
+  .column2rm5-h1 {
+    margin-left: 0vw;
+  }
+
+  .column2rm5-h3 {
+    margin-left: 0vw;
+  }
+
+  #column2rm5-p {
+    margin-left: 0vw;
+    max-width: 60vw;
+  } */
+
+  /* road map section 6 */
+
+  /* .roadmap6 {
+    display: grid;
+    grid-template-columns: 6% 60% 24% 10%;
+  } */
+
+  /* road map section 7 */
+
+  /* .column2rm7 :nth-child(4n) {
+    margin-left: -1vw;
+  }
+
+  #input2 {
+    margin-left: -0.2vw;
+  }
+
+  #input3 {
+    margin-left: -0.2vw;
+  }
+
+  .submit p {
+    padding: 10vh 2vw;
+  } */
+
+  /* footer section */
+  /* footer {
+    column-gap: 30vw;
+  } */
+}
+
+@media only screen and (max-width: 642px) {
+  /* middle menu */
+
+  /* header nav .middle-menu {
+    margin-left: 19vw;
+  }
+
+  header nav .middle-menu a {
+    margin-right: 2.5rem;
+  } */
+
+  /* right side menu */
+
+  /* header .right-side-menu {
+    margin-left: 75vw;
+    padding: 1.8%;
+  } */
+}
+
+@media only screen and (max-width: 320px) {
+  /* left side menu */
+
+  header nav .left-side-menu {
+    margin-top: 6vh;
+  }
+
+  /* middle menu */
+
+  header nav .middle-menu {
+    margin-left: 45vw;
+    font-size: 1.8rem;
+  }
+
+  header nav .middle-menu a {
+    margin-right: 2rem;
+  }
+
+  /* right side menu */
+
+  header .right-side-menu {
+    padding: 3vh 8vw 6vh 8vw;
+    margin-left: 210vw;
+  }
+
+  #logo1 {
+    margin-right: 5vw;
+  }
+
+  /* header second */
+
+  .heading {
+    font-size: 100px;
+    line-height: 20vh;
+  }
+
+  .para {
+    font-size: 26px;
+    line-height: 8vh;
+  }
+
+  /* input button */
+
+  .input {
+    border-radius: 100px;
+    margin-top: 10vh;
+    padding: 0vh 1vw 0vh 1vw;
+  }
+
+  #email {
+    font-size: 26px;
+    padding-left: 8vw;
+  }
+
+  .line {
+    padding-top: 5vh;
+  }
+
+  #owner {
+    font-size: 26px;
+    padding-top: 4vh;
+    padding-left: 10vw;
+  }
+
+  .droparrow {
+    padding-left: 2vw;
+    padding-top: 5.2vh;
+  }
+
+  #circle {
+    margin-top: 0.7vh;
+    padding-left: 10vw;
+  }
+
+  #arrow {
+    padding: 8vh 15vw;
+  }
+
+  /* middle section */
+
+  .column2-h1 {
+    font-size: 80px;
   }
 }
