@@ -44,7 +44,6 @@ header nav .left-side-menu {
 }
 
 header nav .left-side-menu .logo {
-  min-width: 10vw;
   position: fixed;
   margin-top: 10vh;
 }
