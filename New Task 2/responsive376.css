@@ -1,0 +1,142 @@
+@media only screen and (max-width: 376px) {
+  header {
+    column-gap: 0.5rem;
+  }
+  .logo-icon {
+    min-width: 25vw;
+    margin-left: 0vw;
+  }
+
+  header nav {
+    min-width: 45vw;
+  }
+
+  nav ul {
+    column-gap: 0.5rem;
+  }
+
+  header .buttons {
+    column-gap: 1rem;
+    position: absolute;
+    top: 12vh;
+    right: 3vw;
+  }
+
+  .container-2 {
+    padding: 5vh 1vw 3vh 4vw;
+    column-gap: 1rem;
+  }
+
+  .icons {
+    row-gap: 1rem;
+    padding: 2vh 0.8vw 2vh 0.8vw;
+  }
+
+  .bg-image {
+    padding: 3vh 0vw 3vh 2vw;
+    min-width: 78.5vw;
+  }
+
+  .container-2-icons {
+    padding: 0vh 1vw 0vh 2.2vw;
+    width: 20rem;
+  }
+
+  .bg-image h1 {
+    font-size: 1.8rem;
+    line-height: 3rem;
+  }
+
+  .bg-image p {
+    font-size: 2.3vw;
+    line-height: 0.8rem;
+    font-weight: 500;
+  }
+
+  .container-3 nav ul {
+    column-gap: 1rem;
+  }
+
+  .scholar h2 {
+    font-size: 1.2rem;
+  }
+
+  .scholar div select {
+    padding: 1vh 1vw 1vh 0vw;
+    min-width: 30vw;
+  }
+
+  .container-4 {
+    grid-template-columns: 100%;
+    padding: 1vh 9vw 7vh 9vw;
+  }
+
+  .small-btn {
+    left: 62vw;
+  }
+
+  .small-btn {
+    padding: 0.8vh 4vw 0.8vh 4vw;
+  }
+
+  .person-1 {
+    left: 30.5vw;
+    top: 4.5vh;
+  }
+
+  .first-img h2 {
+    min-width: 82vw;
+  }
+
+  #link-p {
+    min-width: 81vw;
+  }
+
+  #group-icon {
+    max-width: 45vw;
+  }
+
+  .person-2 {
+    left: 30.5vw;
+  }
+
+  .first-img-2 h2 {
+    min-width: 82vw;
+  }
+
+  .first-img-3 h2 {
+    min-width: 82vw;
+  }
+
+  .person-4 {
+    left: 30.5vw;
+  }
+
+  .first-img-4 h2 {
+    min-width: 82vw;
+  }
+
+  .first-img-5 h2 {
+    min-width: 82vw;
+  }
+
+  .person-6 {
+    left: 30.5vw;
+  }
+
+  .first-img-6 h2 {
+    min-width: 82vw;
+  }
+
+  .first-img-7 h2 {
+    min-width: 82vw;
+  }
+
+  .person-8 {
+    left: 30.5vw;
+  }
+
+  .first-img-8 h2 {
+    min-width: 82vw;
+  }
+}
