@@ -77,8 +77,8 @@ header nav ul li a {
 }
 
 .header-middle :nth-child(2) {
-  max-height: 2vw;
-  padding: 0.8vh 0 0 0;
+  max-height: 1vw;
+  padding: 1.5vh 0 0 0;
 }
 
 /* -----header right side----- */
@@ -104,20 +104,87 @@ header nav ul li a {
   max-width: 2vw;
 }
 
-/* -----right icons----- */
+/* -----middle body----- */
 
-.right-icons {
+.middle-body {
   border: 1px solid black;
   display: flex;
-  justify-content: flex-end;
-  padding: 0.5vh 4vw 0.5vh 4vw;
+  justify-content: center;
+  margin-top: 5vh;
+}
+
+.middle-div {
+  border: 1px solid black;
+  min-width: 50vw;
 }
 
 .icons {
+  position: absolute;
+  left: 90vw;
   display: inline-flex;
   flex-direction: column;
   row-gap: 1.5rem;
-  border: 1px solid rgba(84, 84, 84, 0.17);
   border-radius: 31.5px;
   padding: 3vh 0.8vw 3vh 0.8vw;
+}
+
+.middle-div h1 {
+  margin-top: 4vh;
+}
+
+.middle-img {
+  border: 1px solid black;
+  margin-top: 4vh;
+  background-image: url(images/background-img.png);
+  min-width: 50vw;
+  min-height: 18vh;
+  border-radius: 22px 22px 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: space-between;
+  display: flex;
+}
+
+.cross {
+  margin: 3vh 0vw 0vh 1vw;
+}
+
+.cross img {
+  max-width: 16vw;
+}
+
+.middle-icons-right {
+  display: inline-flex;
+  column-gap: 1vw;
+  margin: 3vh 2vw 0vh 0vw;
+}
+
+.group-icon img {
+  max-width: 10vw;
+}
+
+.person-img {
+  background: url(images/person-img.png);
+  position: absolute;
+  background-repeat: no-repeat;
+  min-width: 50%;
+  min-height: 50%;
+  left: 46.5vw;
+  top: 44vh;
+}
+
+.middle-content {
+  max-width: 50vw;
+  text-align: center;
+  margin-top: 7vh;
+}
+
+.middle-content h1 {
+  margin-top: 8vh;
+  font-size: 3vw;
+}
+
+.middle-content p {
+  margin-top: 1vh;
+  font-size: 1.3vw;
 }
