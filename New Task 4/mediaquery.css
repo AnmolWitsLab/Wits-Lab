@@ -1,0 +1,595 @@
+@media only screen and (max-width: 1024px) {
+  /* -----header logo----- */
+
+  header .header-logo span {
+    font-size: 1.5vw;
+  }
+  header nav ul li {
+    font-size: 1.8vw;
+  }
+
+  /* -----header right side----- */
+
+  .buttons {
+    padding: 0vh 3vw;
+  }
+
+  .buttons :first-child {
+    padding: 1.8vh 2.5vw 1.8vh 2.5vw;
+  }
+  .buttons :last-child {
+    padding: 1.8vh 2.5vw 1.8vh 2.5vw;
+  }
+
+  /* -----middle-div----- */
+
+  .middle-div {
+    padding-top: 10vh;
+  }
+
+  .background-img p {
+    font-size: 1.5vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* -----header logo----- */
+
+  header .header-logo span {
+    font-size: 1.5vw;
+  }
+
+  header nav ul li {
+    font-size: 1.8vw;
+  }
+
+  /* -----header right side----- */
+
+  .buttons {
+    padding: 0vh 2vw;
+  }
+
+  .buttons :first-child {
+    padding: 1.8vh 2vw 1.8vh 2vw;
+  }
+  .buttons :last-child {
+    padding: 1.8vh 2vw 1.8vh 2vw;
+  }
+
+  /* -----middle-div----- */
+
+  .background-img p {
+    padding-top: 2vh;
+  }
+
+  .icons {
+    left: 94vw;
+  }
+
+  /* -----grid----- */
+
+  .grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0vh 9.5vw 6vh 8vw;
+    row-gap: 1.5vh;
+  }
+
+  /* -----grid-1----- */
+
+  .bubble-img img {
+    max-height: 4vw;
+  }
+
+  .grid-logo-1 img {
+    max-height: 15vw;
+  }
+
+  .grid-logo-1 h1 {
+    font-size: 2.5vw;
+    padding: 1vh 0vw 1vh 0vw;
+  }
+
+  .grid-logo-1 p {
+    font-size: 1.5vw;
+    padding: 0vh 0vw 1vh 0vw;
+  }
+
+  .grid-1-footer span {
+    font-size: 2vw;
+  }
+
+  .grid-1-footer p {
+    font-size: 2vw;
+  }
+
+  /* -----grid-2----- */
+
+  .bubble-img-2 img {
+    max-height: 4vw;
+  }
+
+  .grid-logo-2 img {
+    max-height: 15vw;
+  }
+
+  .grid-logo-2 h1 {
+    font-size: 2.5vw;
+    padding: 1vh 0vw 1vh 0vw;
+  }
+
+  .grid-logo-2 p {
+    font-size: 1.5vw;
+    padding: 0vh 0vw 1vh 0vw;
+  }
+
+  .grid-2-footer span {
+    font-size: 2vw;
+  }
+
+  .grid-2-footer p {
+    font-size: 2vw;
+  }
+
+  /* -----grid-3----- */
+
+  .bubble-img-3 img {
+    max-height: 4vw;
+  }
+
+  .grid-logo-3 img {
+    max-height: 15vw;
+  }
+
+  .grid-logo-3 h1 {
+    font-size: 2.5vw;
+    padding: 1vh 0vw 1vh 0vw;
+  }
+
+  .grid-logo-3 p {
+    font-size: 1.5vw;
+    padding: 0vh 0vw 1vh 0vw;
+  }
+
+  .grid-3-footer span {
+    font-size: 2vw;
+  }
+
+  .grid-3-footer p {
+    font-size: 2vw;
+  }
+
+  /* -----grid-4----- */
+
+  .bubble-img-4 img {
+    max-height: 4vw;
+  }
+
+  .grid-logo-4 img {
+    max-height: 15vw;
+  }
+
+  .grid-logo-4 h1 {
+    font-size: 2.5vw;
+    padding: 1vh 0vw 1vh 0vw;
+  }
+
+  .grid-logo-4 p {
+    font-size: 1.5vw;
+    padding: 0vh 0vw 1vh 0vw;
+  }
+
+  .grid-4-footer span {
+    font-size: 2vw;
+  }
+
+  .grid-4-footer p {
+    font-size: 2vw;
+  }
+
+  /* -----grid-5----- */
+
+  .bubble-img-5 img {
+    max-height: 4vw;
+  }
+
+  .grid-logo-5 img {
+    max-height: 15vw;
+  }
+
+  .grid-logo-5 h1 {
+    font-size: 2.5vw;
+    padding: 1vh 0vw 1vh 0vw;
+  }
+
+  .grid-logo-5 p {
+    font-size: 1.5vw;
+    padding: 0vh 0vw 1vh 0vw;
+  }
+
+  .grid-5-footer span {
+    font-size: 2vw;
+  }
+
+  .grid-5-footer p {
+    font-size: 2vw;
+  }
+
+  /* -----grid-6----- */
+
+  .bubble-img-6 img {
+    max-height: 4vw;
+  }
+
+  .grid-logo-6 img {
+    max-height: 15vw;
+  }
+
+  .grid-logo-6 h1 {
+    font-size: 2.5vw;
+    padding: 1vh 0vw 1vh 0vw;
+  }
+
+  .grid-logo-6 p {
+    font-size: 1.5vw;
+    padding: 0vh 0vw 1vh 0vw;
+  }
+
+  .grid-6-footer span {
+    font-size: 2vw;
+  }
+
+  .grid-6-footer p {
+    font-size: 2vw;
+  }
+
+  /* -----grid-7----- */
+
+  .bubble-img-7 img {
+    max-height: 4vw;
+  }
+
+  .grid-logo-7 img {
+    max-height: 15vw;
+  }
+
+  .grid-logo-7 h1 {
+    font-size: 2.5vw;
+    padding: 1vh 0vw 1vh 0vw;
+  }
+
+  .grid-logo-7 p {
+    font-size: 1.5vw;
+    padding: 0vh 0vw 1vh 0vw;
+  }
+
+  .grid-7-footer span {
+    font-size: 2vw;
+  }
+
+  .grid-7-footer p {
+    font-size: 2vw;
+  }
+
+  /* -----grid-8----- */
+
+  .bubble-img-8 img {
+    max-height: 4vw;
+  }
+
+  .grid-logo-8 img {
+    max-height: 15vw;
+  }
+
+  .grid-logo-8 h1 {
+    font-size: 2.5vw;
+    padding: 1vh 0vw 1vh 0vw;
+  }
+
+  .grid-logo-8 p {
+    font-size: 1.5vw;
+    padding: 0vh 0vw 1vh 0vw;
+  }
+
+  .grid-8-footer span {
+    font-size: 2vw;
+  }
+
+  .grid-8-footer p {
+    font-size: 2vw;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  /* -----header logo----- */
+
+  header .header-logo span {
+    font-size: 2vw;
+  }
+
+  header nav ul li {
+    font-size: 2vw;
+  }
+
+  #search-img {
+    max-width: 2.3vw;
+  }
+
+  /* -----header right side----- */
+
+  .buttons {
+    column-gap: 0.5rem;
+    padding: 0vh 2vw;
+  }
+
+  .buttons :first-child {
+    font-size: 2vw;
+    padding: 1vh 1.5vw 1vh 1.5vw;
+  }
+  .buttons :last-child {
+    font-size: 2vw;
+    padding: 1vh 1.5vw 1vh 1.5vw;
+  }
+
+  /* -----middle-div----- */
+
+  .middle-div {
+    justify-content: flex-start;
+    padding-top: 5.5vh;
+    padding-left: 6vw;
+  }
+
+  .background-img p {
+    font-size: 2.2vw;
+  }
+
+  .icons {
+    left: 92vw;
+    padding: 1.5vh 0.8vw 1.5vh 0.8vw;
+    row-gap: 1.2rem;
+  }
+
+  .badges {
+    margin: 5vh 9.5vw;
+  }
+
+  .badges h1 {
+    font-size: 5vw;
+  }
+
+  .badges select {
+    padding: 0vh 1.5vw 0vh 0.5vw;
+  }
+
+  /* -----grid----- */
+
+  .grid {
+    display: grid;
+    grid-template-columns: 100%;
+    row-gap: 3.5vh;
+  }
+
+  /* -----grid-1----- */
+
+  .bubble-img img {
+    max-height: 10vw;
+  }
+
+  .grid-logo-1 img {
+    max-height: 50vw;
+  }
+
+  .grid-logo-1 h1 {
+    font-size: 4.5vw;
+    padding: 4vh 0vw 0.5vh 0vw;
+  }
+
+  .grid-logo-1 p {
+    font-size: 3vw;
+    padding: 0.5vh 0vw 4vh 0vw;
+  }
+
+  .grid-1-footer span {
+    font-size: 3.5vw;
+  }
+
+  .grid-1-footer p {
+    font-size: 3.5vw;
+  }
+
+  /* -----grid-2----- */
+
+  .bubble-img-2 img {
+    max-height: 10vw;
+  }
+
+  .grid-logo-2 img {
+    max-height: 50vw;
+  }
+
+  .grid-logo-2 h1 {
+    font-size: 4.5vw;
+    padding: 4vh 0vw 0.5vh 0vw;
+  }
+
+  .grid-logo-2 p {
+    font-size: 3vw;
+    padding: 0.5vh 0vw 4vh 0vw;
+  }
+
+  .grid-2-footer span {
+    font-size: 3.5vw;
+  }
+
+  .grid-2-footer p {
+    font-size: 3.5vw;
+  }
+
+  /* -----grid-3----- */
+
+  .bubble-img-3 img {
+    max-height: 10vw;
+  }
+
+  .grid-logo-3 img {
+    max-height: 50vw;
+  }
+
+  .grid-logo-3 h1 {
+    font-size: 4.5vw;
+    padding: 4vh 0vw 0.5vh 0vw;
+  }
+
+  .grid-logo-3 p {
+    font-size: 3vw;
+    padding: 0.5vh 0vw 4vh 0vw;
+  }
+
+  .grid-3-footer span {
+    font-size: 3.5vw;
+  }
+
+  .grid-3-footer p {
+    font-size: 3.5vw;
+  }
+
+  /* -----grid-4----- */
+
+  .bubble-img-4 img {
+    max-height: 10vw;
+  }
+
+  .grid-logo-4 img {
+    max-height: 50vw;
+  }
+
+  .grid-logo-4 h1 {
+    font-size: 4.5vw;
+    padding: 4vh 0vw 0.5vh 0vw;
+  }
+
+  .grid-logo-4 p {
+    font-size: 3vw;
+    padding: 0.5vh 0vw 4vh 0vw;
+  }
+
+  .grid-4-footer span {
+    font-size: 3.5vw;
+  }
+
+  .grid-4-footer p {
+    font-size: 3.5vw;
+  }
+
+  /* -----grid-5----- */
+
+  .bubble-img-5 img {
+    max-height: 10vw;
+  }
+
+  .grid-logo-5 img {
+    max-height: 50vw;
+  }
+
+  .grid-logo-5 h1 {
+    font-size: 4.5vw;
+    padding: 4vh 0vw 0.5vh 0vw;
+  }
+
+  .grid-logo-5 p {
+    font-size: 3vw;
+    padding: 0.5vh 0vw 4vh 0vw;
+  }
+
+  .grid-5-footer span {
+    font-size: 3.5vw;
+  }
+
+  .grid-5-footer p {
+    font-size: 3.5vw;
+  }
+
+  /* -----grid-6----- */
+
+  .bubble-img-6 img {
+    max-height: 10vw;
+  }
+
+  .grid-logo-6 img {
+    max-height: 50vw;
+  }
+
+  .grid-logo-6 h1 {
+    font-size: 4.5vw;
+    padding: 4vh 0vw 0.5vh 0vw;
+  }
+
+  .grid-logo-6 p {
+    font-size: 3vw;
+    padding: 0.5vh 0vw 4vh 0vw;
+  }
+
+  .grid-6-footer span {
+    font-size: 3.5vw;
+  }
+
+  .grid-6-footer p {
+    font-size: 3.5vw;
+  }
+
+  /* -----grid-7----- */
+
+  .bubble-img-7 img {
+    max-height: 10vw;
+  }
+
+  .grid-logo-7 img {
+    max-height: 50vw;
+  }
+
+  .grid-logo-7 h1 {
+    font-size: 4.5vw;
+    padding: 4vh 0vw 0.5vh 0vw;
+  }
+
+  .grid-logo-7 p {
+    font-size: 3vw;
+    padding: 0.5vh 0vw 4vh 0vw;
+  }
+
+  .grid-7-footer span {
+    font-size: 3.5vw;
+  }
+
+  .grid-7-footer p {
+    font-size: 3.5vw;
+  }
+
+  /* -----grid-8----- */
+
+  .bubble-img-8 img {
+    max-height: 10vw;
+  }
+
+  .grid-logo-8 img {
+    max-height: 50vw;
+  }
+
+  .grid-logo-8 h1 {
+    font-size: 4.5vw;
+    padding: 4vh 0vw 0.5vh 0vw;
+  }
+
+  .grid-logo-8 p {
+    font-size: 3vw;
+    padding: 0.5vh 0vw 4vh 0vw;
+  }
+
+  .grid-8-footer span {
+    font-size: 3.5vw;
+  }
+
+  .grid-8-footer p {
+    font-size: 3.5vw;
+  }
+}

@@ -6,6 +6,7 @@
 
 body {
   max-width: 100%;
+  background-color: aliceblue;
 }
 
 /* -----header----- */
@@ -15,7 +16,10 @@ header {
   background: rgba(255, 255, 255, 0.72);
   backdrop-filter: blur(104px);
   align-items: center;
-  margin-top: 2vh;
+  padding-top: 2vh;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 /* -----header logo----- */
@@ -104,21 +108,23 @@ header nav ul li a {
   max-width: 2vw;
 }
 
-/* -----middle body----- */
+/* -----middle-body-1----- */
 
 .middle-body {
-  border: 1px solid black;
   display: flex;
   justify-content: center;
-  margin-top: 5vh;
+  padding-top: 5vh;
 }
 
 .middle-div {
-  border: 1px solid black;
+  border: 1px solid #f4f1f1;
+  background: #ffffff;
+  border-radius: 26px;
   min-width: 50vw;
 }
 
 .icons {
+  border: 1px solid rgba(84, 84, 84, 0.17);
   position: absolute;
   left: 90vw;
   display: inline-flex;
@@ -133,7 +139,6 @@ header nav ul li a {
 }
 
 .middle-img {
-  border: 1px solid black;
   margin-top: 4vh;
   background-image: url(images/background-img.png);
   min-width: 50vw;
@@ -164,13 +169,14 @@ header nav ul li a {
 }
 
 .person-img {
-  background: url(images/person-img.png);
   position: absolute;
   background-repeat: no-repeat;
-  min-width: 50%;
-  min-height: 50%;
-  left: 46.5vw;
-  top: 44vh;
+  left: 47vw;
+  top: 43.5vh;
+}
+
+.person-img img {
+  max-width: 12vw;
 }
 
 .middle-content {
@@ -187,4 +193,184 @@ header nav ul li a {
 .middle-content p {
   margin-top: 1vh;
   font-size: 1.3vw;
+}
+
+.middle-content img {
+  margin-top: 3vh;
+  max-width: 15vw;
+}
+
+/* -----middle-body-2----- */
+
+.final-body {
+  display: flex;
+  justify-content: center;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+.final-div {
+  border: 1px solid #f4f1f1;
+  background: #ffffff;
+  border-radius: 26px;
+  min-width: 50%;
+  padding: 6vh 0vw 6vh 0vw;
+}
+
+.final-div h1 {
+  font-size: 1.5vw;
+  padding: 0vh 0vw 0vh 2vw;
+}
+
+.div-1 {
+  display: flex;
+  padding: 6vh 2vw 5vh 2vw;
+  column-gap: 5vw;
+  box-sizing: border-box;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.div-1 h4 {
+  font-size: 1vw;
+
+  transform: rotate(-0.07deg);
+}
+
+.div-1 a {
+  text-decoration: none;
+  font-size: 1vw;
+  color: #4bb1dc;
+  margin-left: 3.7vw;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 2.5vw;
+  height: 3.5vh;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 17px;
+  width: 15px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(15px);
+  -ms-transform: translateX(15px);
+  transform: translateX(15px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.div-2 {
+  display: flex;
+  padding: 5vh 0vw 5vh 2vw;
+  align-items: center;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.div-2 h4 {
+  font-size: 1vw;
+
+  transform: rotate(-0.07deg);
+}
+
+.div-2 a {
+  font-size: 1vw;
+  color: #4bb1dc;
+  text-decoration: none;
+  margin-left: 4.2vw;
+}
+
+#box-img {
+  max-width: 0.8vw;
+  margin-left: 0.3vw;
+}
+
+#pen-img {
+  max-width: 2.2vw;
+  margin-left: 14.2vw;
+}
+
+.div-3 {
+  display: flex;
+  padding: 5vh 0vw 5vh 2vw;
+  column-gap: 10.3vw;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.div-3 h4 {
+  font-size: 1vw;
+
+  transform: rotate(-0.07deg);
+}
+
+.div-3 a {
+  font-size: 1vw;
+  color: #4bb1dc;
+  text-decoration: none;
+}
+
+.div-4 {
+  display: flex;
+  padding: 5vh 0vw 5vh 2vw;
+  column-gap: 7.6vw;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.div-4 h4 {
+  font-size: 1vw;
+
+  transform: rotate(-0.07deg);
+}
+
+.div-4 p {
+  font-size: 1vw;
+  font-weight: 700;
+  padding-top: 0.5vh;
+}
+
+#pen-img2 {
+  max-width: 2.2vw;
+  margin-left: 13.4vw;
 }
