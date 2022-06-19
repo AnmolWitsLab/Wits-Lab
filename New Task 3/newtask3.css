@@ -188,6 +188,7 @@ header nav ul li a {
 .middle-content h1 {
   margin-top: 8vh;
   font-size: 3vw;
+  margin-left: 5vw;
 }
 
 .middle-content p {
@@ -232,7 +233,6 @@ header nav ul li a {
 
 .div-1 h4 {
   font-size: 1vw;
-
   transform: rotate(-0.07deg);
 }
 
@@ -245,8 +245,8 @@ header nav ul li a {
 .switch {
   position: relative;
   display: inline-block;
-  width: 2.5vw;
-  height: 3.5vh;
+  width: 2.8vw;
+  height: 4vh;
 }
 
 .switch input {
@@ -311,7 +311,6 @@ input:checked + .slider:before {
 
 .div-2 h4 {
   font-size: 1vw;
-
   transform: rotate(-0.07deg);
 }
 
@@ -341,7 +340,6 @@ input:checked + .slider:before {
 
 .div-3 h4 {
   font-size: 1vw;
-
   transform: rotate(-0.07deg);
 }
 
@@ -360,7 +358,6 @@ input:checked + .slider:before {
 
 .div-4 h4 {
   font-size: 1vw;
-
   transform: rotate(-0.07deg);
 }
 
