@@ -116,19 +116,22 @@ header nav ul li a {
   border-radius: 25px;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 6vh 5vw 9vh 3.5vw;
-  color: white;
-  min-width: 75vw;
+  min-width: 80vw;
+  min-height: 30vh;
 }
 
 .background-img h1 {
   font-size: 4.5vw;
+  margin-left: 3.5vw;
   color: #dbdbdb;
+  margin-top: 3vh;
 }
 
 .background-img p {
   font-size: 1vw;
   font-weight: 700;
+  margin-top: 1vh;
+  margin-left: 3.8vw;
   color: #dbdbdb;
 }
 

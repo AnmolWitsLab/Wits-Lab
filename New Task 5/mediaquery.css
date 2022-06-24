@@ -1,0 +1,112 @@
+@media only screen and (max-width: 768px) {
+  .logo img {
+    max-width: 8.5vw;
+  }
+  .logo span {
+    font-size: 2.5vw;
+  }
+  .middle-nav {
+    display: inline-block;
+    column-gap: 2vh;
+  }
+  .middle-div {
+    margin: 2vw 1vw;
+  }
+  .middle-div select {
+    margin: 1vw 1vw;
+    font-size: 2vw;
+    max-width: 24vw;
+  }
+  .middle-div button {
+    margin: 1vh 6vw 1vh 1.5vw;
+    font-size: 1.5vw;
+    max-width: 18vw;
+  }
+  .icons {
+    margin-left: 1vw;
+  }
+  .icons a {
+    font-size: 1.8vw;
+    margin: 1vh 0.5vw;
+  }
+  .main-div {
+    padding-top: 4vh;
+  }
+  .footer {
+    grid-template-columns: auto auto;
+  }
+  #date {
+    color: grey;
+    font-size: 2vw;
+  }
+  #pera {
+    color: grey;
+    line-height: 1rem;
+    font-size: 2vw;
+  }
+  .grid-1 button {
+    font-size: 1.5vw;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .logo img {
+    max-width: 15vw;
+  }
+  .logo span {
+    font-size: 4.5vw;
+  }
+  .middle-div select {
+    font-size: 3vw;
+    max-width: 37vw;
+  }
+  .middle-div button {
+    font-size: 2.5vw;
+    max-width: 25vw;
+  }
+  .icons {
+    padding-top: 0vh;
+  }
+  .icons a {
+    font-size: 3vw;
+  }
+  .bg-img {
+    min-height: 25vh;
+  }
+  .bg-img p {
+    font-size: 4.5vw;
+  }
+  .size {
+    font-size: calc(100% - 1vw);
+  }
+  .footer {
+    margin: 3vh 10vw 1vh 10vw;
+    grid-template-columns: 100%;
+  }
+  .grid-1 img {
+    min-height: 25vh;
+  }
+  #date {
+    color: grey;
+    font-size: 3vw;
+  }
+  .first h1 {
+    font-size: 5vw;
+  }
+  #pera {
+    color: grey;
+    line-height: 1rem;
+    font-size: 3vw;
+  }
+  footer .first img {
+    min-height: 25vh;
+  }
+  .first-img h1 {
+    font-size: 7.5vw;
+  }
+  #p {
+    font-size: 3vw;
+  }
+  .grid-1 button {
+    font-size: 3vw;
+  }
+}

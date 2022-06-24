@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+  min-width: 20%;
+}
+
+.logo img {
+  max-width: 6.5vw;
+}
+.logo span {
+  font-size: 1.2vw;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  color: white;
+}
+.size {
+  font-size: calc(100% - 0.3vw);
+}
+.middle-nav {
+  justify-content: flex-end;
+  align-items: center;
+}
+.middle-div select {
+  background-color: transparent;
+  color: white;
+  outline: none;
+  border: none;
+  margin: 0 1vw;
+  font-size: 0.9vw;
+}
+.middle-div button {
+  background-color: rgb(107, 151, 227);
+  color: white;
+  font-size: 0.7vw;
+  border-radius: 30px;
+  padding: 1.5vh 1.5vw 1vh 1.5vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin: 0 1vw;
+  border: none;
+}
+.middle-div a {
+  font-size: 1.3vw;
+  color: rgb(107, 151, 227);
+  text-decoration: none;
+  margin: 0 0.5vw;
+}
+
+.icons {
+  padding-top: 0.5vh;
+}
+
+.main-div {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  background-color: rgb(97, 95, 95);
+  padding-top: 4vh;
+}
+
+.bg-img {
+  background-image: url(images/background-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 80vw;
+  min-height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.bg-img p {
+  color: white;
+  font-size: 2.5vw;
+  font-weight: 500;
+  margin-right: 2vw;
+}
+
+.last {
+  background-color: rgb(97, 95, 95);
+  padding-bottom: 3vh;
+}
+.footer {
+  margin: 3vh 9.5vw 1vh 9.5vw;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 2vw;
+  row-gap: 2vh;
+
+  background-color: rgb(97, 95, 95);
+}
+
+.grid-1 {
+  min-height: 100%;
+  background-color: white;
+}
+
+.grid-1 img {
+  width: calc(100% - 0rem);
+  min-height: 30vh;
+}
+.first {
+  padding: 0vh 1vw 1vh 1vw;
+}
+
+#date {
+  color: grey;
+  font-size: 1vw;
+}
+
+.first h1 {
+  font-size: 2vw;
+}
+
+#hastag {
+  color: grey;
+  line-height: 1rem;
+}
+
+#pera {
+  color: grey;
+  line-height: 1rem;
+  font-size: 1vw;
+}
+
+.first span {
+  display: flex;
+  justify-content: center;
+}
+
+.first button {
+  border: none;
+  border-radius: 30px;
+  background-color: rgb(107, 151, 227);
+  padding: 1vh 2vw 1vh 2vw;
+  color: white;
+}
