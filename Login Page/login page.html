@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<head>
+
+	<style>
+
+		.center {
+			margin-top: 22px;
+			margin-left: 350px;
+			width: 50%;
+			border: 2px solid red;
+			padding: 10px;
+			background: #CCFB5D;
+			text-align: center;
+		}
+
+		.h {
+			color: red;
+		}
+
+		#submit {
+			background-color: orange;
+			width: 160px;
+			height: 35px;
+			border-radius: 10px;
+			border: 2px solid white;
+			color: white;
+			font-weight: bold;
+		}
+
+	</style>
+	
+	<title>Login Form</title>
+
+</head>
+
+<body style="background-color:#668322 ;">
+
+	<!-- form -->
+
+	<div class="center">
+
+
+		<h3 class="h">Personal Details</h3>
+
+
+	<form>
+
+		<b>Name :</b>      <input id="name" type="text" name="name" ><br><br>
+		<b>Password :</b>  <input type="password" name="password"><br><br>
+		<b>E-mail id :</b> <input type="email" name="email"><br><br>
+		<b>Gender :</b>    <input type="radio" name="gender"> Male
+		                   <input type="radio" name="gender"> Female<br><br>
+		<b>Contact :</b>   <input type="tel" maxlength="10" name="contact"><br>
+
+		
+		<h3 class="h">Educational Qualification</h3>
+
+		
+		  <label> Degree : </label>
+
+		         <select>
+			             <option>--Select Group--</option>
+			             <option>BA</option>
+			             <option>BCA</option>
+			             <option>B.SC</option>
+		         </select> <br><br>
+
+		  <label> Engineering : </label>
+
+		         <select>
+		         	     <option>--Select Group--</option>
+		         	     <option>Electrical</option>
+		         	     <option>Chemical</option>
+		         	     <option>Mechanical</option>
+		         </select> <br><br>
+
+		  <label> Hobbies : </label>
+
+		  	      <input type="checkbox" name="playing chess"> Playing Chess
+		  	      <input type="checkbox" name="reading books"> Reading Books <br>
+
+		  	
+		<h3 class="h"> Address </h3>
+
+
+		  	<textarea rows="5" cols="40"></textarea> <br><br>
+		  	Attach Resume : <input type="file" name="file"> <br><br>
+
+		<input id="submit" type="submit" name="" value="SUBMIT &#10132;"> <br><br><br>
+	
+	</form>
+
+
+</div>
+
+
+</body>

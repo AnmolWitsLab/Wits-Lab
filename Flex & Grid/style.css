@@ -1,0 +1,64 @@
+.grid {
+  display: grid;
+  margin-top: 215px;
+  background: radial-gradient(rgb(188, 102, 36), rgb(26, 91, 189));
+  gap: 20px;
+  padding: 20px;
+}
+
+.facebook {
+  color: #4267b2;
+  background-color: white;
+  border: solid black;
+  grid-column: 1 / 3;
+  grid-row: 1;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.instagram {
+  color: #bc2a8d;
+  background-color: white;
+  border: solid black;
+  grid-column: 3;
+  grid-row: 1 / 3;
+  padding: 20px;
+  padding-top: 60px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.twitter {
+  color: #00acee;
+  background-color: white;
+  border: solid black;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.linkedin {
+  color: #0077b5;
+  background-color: white;
+  border: solid black;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.whatsapp {
+  color: #128c7e;
+  background-color: white;
+  border: solid black;
+  grid-row: 3;
+  grid-column: 1 / 4;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}

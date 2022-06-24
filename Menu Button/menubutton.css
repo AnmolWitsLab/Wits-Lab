@@ -1,0 +1,43 @@
+.diamondimage {
+  margin-left: 4vw;
+  margin-top: 2vh;
+}
+.diamondimagep {
+  font-family: "Outfit", sans-serif;
+  font-size: 1vw;
+  color: #0E2B66;
+  margin-top: -2.5vh;
+  margin-left: 3.7vw;
+}
+#loginbutton {
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(104px);
+  border: 1px solid #E1E1E1;
+  height: 7vh;
+  min-width: 8.5vw;
+  cursor: pointer;
+  margin-top: 1vh;
+  margin-left: 10vw;
+  padding-top: 1.5vh;
+}
+#signupbutton {
+  border-radius: 12px;
+  background: linear-gradient(268.02deg, #288CDC 8.26%, #49AFDC 98.33%);
+  height: 7vh;
+  min-width: 8vw;
+  margin-left: 1vw;
+  border-style: none;
+  cursor: pointer;
+  margin-top: 1vh;
+  padding-top: 1.5vh;
+}
+#navbarNav {
+  padding-left: 20vw;
+}
+.nav-item {
+  padding-left: 2vw;
+}
+.container-fluid {
+  background: rgba(255, 255, 255, 0.72);
+}
